@@ -27,9 +27,9 @@ public class LoanSummaryActivity extends Activity {
         //Get passed data
         Intent intent = getIntent();
 
+        //Get data from other activity
         String report;
         report = intent.getStringExtra("LoanReport");
-
         String monthlyPay;
         monthlyPay = intent.getStringExtra("MonthlyPayment");
         monthlyPayET.setText(monthlyPay);

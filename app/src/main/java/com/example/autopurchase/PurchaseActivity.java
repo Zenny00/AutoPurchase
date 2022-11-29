@@ -65,7 +65,7 @@ public class PurchaseActivity extends Activity {
         loanReport += res.getString(R.string.report_line9) + String.format("%18.02f", mAuto.taxAmount());
         loanReport += res.getString(R.string.report_line10) + String.format("%18.02f", mAuto.totalCost());
         loanReport += res.getString(R.string.report_line11) + String.format("%12.02f", mAuto.borrowedAmount());
-        loanReport += res.getString(R.string.report_line12) + String.format("12.02f", mAuto.interestAmount());
+        loanReport += res.getString(R.string.report_line12) + String.format("%12.02f", mAuto.interestAmount());
 
         loanReport += "\n\n" + res.getString(R.string.report_line8) + " " + mAuto.getLoanTerm() + " years.";
         loanReport += "\n\n" + res.getString(R.string.report_line2);
